@@ -11,7 +11,7 @@ variable "remote_host" {
   type        = string
   description = "The ip or fqdn of your XCP-ng. It must be the master"
   sensitive   = true
-  default     = "192.168.0.210"
+  default     = "youre xcp master server ip"
 }
 
 variable "remote_username" {
@@ -25,7 +25,7 @@ variable "remote_password" {
   type        = string
   description = "The password used to interact with your XCP-ng"
   sensitive   = true
-  default     = "Whizzkids@1.."
+  default     = "your master server admin password"
 }
 
 variable "sr_iso_name" {
